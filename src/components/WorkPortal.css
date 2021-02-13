@@ -1,0 +1,45 @@
+.research-background{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+.research-container{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 50vw;
+    height: 90vh;
+    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px #222;
+    overflow-y: scroll;
+}
+.research-container i{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    opacity: 0.5;
+}
+.research-container i:hover{
+    opacity: 1;
+}
+.research-header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 1rem;
+    
+}
+.research-text{
+    margin: 1rem;
+}
+@media screen and (max-width:768px){
+    .research-container{
+        width: 80vw;
+    }
+}

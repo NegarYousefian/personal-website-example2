@@ -1,0 +1,39 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424;
+    color: #c7c7c7;
+    height: 150px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border-top: 1px solid #fff;
+}
+.cp{
+    color: rgb(226, 50, 80);
+}
+.footer-text{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.scroll-top{
+    opacity: 0.9;
+    border: none;
+    background-color: rgb(226, 50, 80);
+    color: white;
+    border-radius: 2px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+.scroll-top:hover{
+    opacity: 1;
+}
+.scroll-top:active{
+    border: none;
+}
